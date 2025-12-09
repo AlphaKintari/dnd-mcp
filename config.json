@@ -1,0 +1,37 @@
+{
+  "activeCampaign": "test-game",
+  "campaigns": {
+    "fragments": {
+      "type": "legacy",
+      "name": "Fragments of the First Code",
+      "description": "Post-apocalyptic sci-fantasy with nanite magic",
+      "paths": {
+        "universe": "../.aiinfo/Universe.md",
+        "rules": "../.aiinfo/Rules.md",
+        "characterCreation": "../.aiinfo/Fragments_Character_Creation.md",
+        "storyIndex": "../.aiinfo/Story.index.md",
+        "testStories": "../test-storylines/",
+        "canonStories": "../true-story/"
+      }
+    },
+    "test-game": {
+      "type": "standard",
+      "name": "Test Game",
+      "description": "Testing the MCP server with Alpha Kintari",
+      "path": "../campaigns/test-game/"
+    },
+    "example-campaign": {
+      "type": "standard",
+      "name": "Example Campaign",
+      "description": "Template for new campaigns",
+      "path": "../campaigns/_templates/new-campaign/"
+    }
+  },
+  "coreRulesPath": "../core-rules/",
+  "agentsEnabled": {
+    "rulesArbiter": true,
+    "worldKeeper": true,
+    "storyGuardian": true,
+    "balanceWatchdog": true
+  }
+}
